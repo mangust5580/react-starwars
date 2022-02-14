@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7160bfab.css",
+    "main.js": "/static/js/main.3d576b33.js",
+    "static/media/neutral-side.jpg": "/static/media/neutral-side.c1d0a8d1869b3fbdb9ab.jpg",
+    "static/media/body-bg-neutral.jpg": "/static/media/body-bg-neutral.f7eac782a98102a5721a.jpg",
+    "static/media/han-solo.mp4": "/static/media/han-solo.db435084c403f6b37d4d.mp4",
+    "static/media/dark-side.jpg": "/static/media/dark-side.e0f8cab78e4bdd7db45d.jpg",
+    "static/media/light-side.jpg": "/static/media/light-side.eebc52171cd4ac0278ca.jpg",
+    "static/media/not-found.png": "/static/media/not-found.0ea24d9e07f91385fe68.png",
+    "static/media/neutralLogo.svg": "/static/media/neutralLogo.e51abb3c04fd2fd031f67b741a6301c7.svg",
+    "static/media/darkLogo.svg": "/static/media/darkLogo.03f8256c5839250edcdf15ef02681add.svg",
+    "static/media/lightLogo.svg": "/static/media/lightLogo.137e08582515a0a498e1b9b4bdbb2719.svg",
+    "index.html": "/index.html",
+    "main.7160bfab.css.map": "/static/css/main.7160bfab.css.map",
+    "main.3d576b33.js.map": "/static/js/main.3d576b33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7160bfab.css",
+    "static/js/main.3d576b33.js"
+  ]
+}
