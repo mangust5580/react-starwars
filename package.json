@@ -15,10 +15,9 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "deploy": "yarn build && yarn build-gh-pages",
     "build": "react-app-rewired build",
     "eject": "react-app-rewired eject",
-    "build-gh-pages": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
