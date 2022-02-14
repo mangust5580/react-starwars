@@ -1,0 +1,27 @@
+.peopleNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 var(--gap-sm);
+  margin-bottom: 50px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 7px 20px;
+  border: 1px solid var(--white-color);
+  min-width: 140px;
+  text-align: center;
+  transition: var(--transition);
+  &:hover {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+  &.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.4;
+  }
+}

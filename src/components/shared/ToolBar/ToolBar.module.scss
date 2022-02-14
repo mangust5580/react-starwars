@@ -1,0 +1,27 @@
+.favoriteLink {
+  position: relative;
+  & svg {
+    fill: var(--theme-default-color);
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.counter {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  color: var(--black-color);
+  background-color: var(--white-color);
+  text-decoration: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--black-color);
+}

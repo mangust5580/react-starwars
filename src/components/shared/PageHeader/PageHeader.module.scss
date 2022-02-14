@@ -1,0 +1,13 @@
+.pageHeader {
+  margin-bottom: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap-sm) var(--gap-lg);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

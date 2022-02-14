@@ -1,0 +1,38 @@
+.vhidden {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+}
+
+.h1,
+.h2,
+.h3 {
+  margin: 0;
+  padding: 0;
+  color: var(--theme-default-color);
+}
+
+.h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.h2 {
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.h3 {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 22px;
+}

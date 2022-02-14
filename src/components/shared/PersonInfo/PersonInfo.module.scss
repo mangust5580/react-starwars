@@ -1,0 +1,23 @@
+.info {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid #000;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 12px;
+}
+
+.title {
+  text-decoration: underline;
+  margin-right: 7px;
+  &::after {
+    content: ':';
+  }
+}

@@ -1,0 +1,29 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--theme-default-color);
+  text-align: center;
+  padding: 7px 10px;
+  font-weight: var(--font-weight-medium);
+  font-family: sans-serif;
+  min-width: 70px;
+  border: 2px solid transparent;
+  text-shadow: 0 0 5px currentColor;
+  transition: all 0.4s;
+
+  &:global(.active) {
+    border: 2px solid var(--theme-default-color);
+    color: var(--theme-default-color);
+    text-shadow: none;
+  }
+}

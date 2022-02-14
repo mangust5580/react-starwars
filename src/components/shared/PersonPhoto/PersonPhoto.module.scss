@@ -1,0 +1,28 @@
+.photoContainer {
+  position: relative;
+}
+
+.photo {
+  border-radius: var(--border-radius-sm);
+}
+
+.favoriteBtn {
+  position: absolute;
+  right: -22px;
+  top: -12px;
+  background-color: transparent;
+  border: none;
+  filter: drop-shadow(0 0 2px #000);
+  cursor: pointer;
+  & svg {
+    width: 35px;
+    height: 35px;
+    fill: var(--white-color);
+  }
+}
+
+.favoriteBtnActive {
+  & svg {
+    fill: var(--theme-default-color);
+  }
+}

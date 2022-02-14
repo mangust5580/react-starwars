@@ -1,0 +1,61 @@
+@import './variables.scss';
+
+* {
+  scrollbar-color: #6b6b6b rgba(0, 0, 0, 0.7);
+  scrollbar-width: thin;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #6b6b6b;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-corner {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  color: var(--white-color);
+  background-color: var(--black-color);
+  background-image: var(--theme-default-body-bg);
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.visually-hidden {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+}
