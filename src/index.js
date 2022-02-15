@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { REPO_NAME } from '@constants/repo';
 
 import { store } from '@store/store';
 
@@ -14,7 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider>
-        <Router>
+        <Router basename={`/${REPO_NAME}/`}>
           <App />
         </Router>
       </ThemeProvider>
