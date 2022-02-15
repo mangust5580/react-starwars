@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-starwars/static/css/main.55ed2704.css",
-    "main.js": "/react-starwars/static/js/main.f735bf98.js",
+    "main.js": "/react-starwars/static/js/main.5c59ec61.js",
     "static/media/neutral-side.jpg": "/react-starwars/static/media/neutral-side.c1d0a8d1869b3fbdb9ab.jpg",
     "static/media/body-bg-neutral.jpg": "/react-starwars/static/media/body-bg-neutral.f7eac782a98102a5721a.jpg",
     "static/media/han-solo.mp4": "/react-starwars/static/media/han-solo.db435084c403f6b37d4d.mp4",
@@ -13,10 +13,10 @@
     "static/media/lightLogo.svg": "/react-starwars/static/media/lightLogo.137e08582515a0a498e1b9b4bdbb2719.svg",
     "index.html": "/react-starwars/index.html",
     "main.55ed2704.css.map": "/react-starwars/static/css/main.55ed2704.css.map",
-    "main.f735bf98.js.map": "/react-starwars/static/js/main.f735bf98.js.map"
+    "main.5c59ec61.js.map": "/react-starwars/static/js/main.5c59ec61.js.map"
   },
   "entrypoints": [
     "static/css/main.55ed2704.css",
-    "static/js/main.f735bf98.js"
+    "static/js/main.5c59ec61.js"
   ]
 }
